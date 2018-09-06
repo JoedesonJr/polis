@@ -1,7 +1,7 @@
 var i, dataChart;
 var years = ['2015', '2016', '2017', '2018'];
 
-var url = 'http://dadosabertos-custom.azurewebsites.net/receitas?type=json&idCliente=0202202&page=1&pageSize=20&numano=';
+var url = 'https://cors-anywhere.herokuapp.com/http://dadosabertos-custom.azurewebsites.net/receitas?type=json&idCliente=0202202&page=1&pageSize=20&numano=';
 
 $('#receita').on('click', function () {
     $.get(url + '2018',
