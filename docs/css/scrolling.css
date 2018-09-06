@@ -1,0 +1,36 @@
+header {
+    padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+    header {
+        padding: 195px 0 119px;
+    }
+}
+
+section {
+    padding: 150px 0;
+}
+
+#columnchart_material {
+    width: 800px;
+    height: 500px;
+}
+
+.carousel-caption {
+    bottom: 50%;
+}
+
+.carousel-inner {
+    height: 650px !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.navbar-dark .navbar-brand {
+    font-weight: 600;
+}
